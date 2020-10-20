@@ -12,7 +12,7 @@ Generate globally unique eventId based on microservices on a network. This is cr
     var hashZeus = require('hashzeus');
     var demo = new hashZeus()
     console.log(demo.generateHash('zerodha'));
-    //apple-6dylVZFUl4cP3fH6bKRe.G
+    //zerodha-6dylVZFUl4cP3fH6bKRe.G
     console.log(demo.generateHash('byjus'));
     //byjus-4SFUv0vu06psuKOUYiw18T
     var demo1 = new hashZeus();
