@@ -19,4 +19,12 @@ Generate globally unique eventId based on microservices on a network. This is cr
     console.log(demo1.generateHash('byjus')); 
     // generates completely different Id from a differnt object.
     //byjus-3s4REK77l2Fsh2hE8EIUGT
+
+    var demo2 = new hashZeus();
+    id1 = demo2.generateHash();
+    //..........37qqNkj4K24ulWyeuWxpZh
+    id2 = demo2.generateHash();
+    //..........77qqNkj4K24ulWyeuWxpZh
+    assert(id1 < id2)
+    //true
 ```
