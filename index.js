@@ -14,7 +14,7 @@ class hashZeus {
      * @param {*} name 
      * @param {*} eventId 
      */
-    appendServiceName(name, eventId) {
+    static appendServiceName(name, eventId) {
         let tempSer = eventId.substring(10);
         return name + "-" + tempSer ;
     }
