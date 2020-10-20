@@ -1,6 +1,6 @@
 # hashzeus
 
-![Node CI](https://github.com/Jithinqw/hashzeus/workflows/Node%20CI/badge.svg?branch=main)
+![Node.js CI](https://github.com/Jithinqw/hashzeus/workflows/Node.js%20CI/badge.svg)
 
 Generate globally unique eventId based on microservices on a network. This is created as an alternative for Javascript timestamps for identifying services on a network.
 
