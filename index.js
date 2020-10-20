@@ -2,7 +2,6 @@ const d64 = require('d64'),
     uuid = require('uuid');
 
 class hashZeus {
-    b = Uint8Array;
     constructor() {
         this.b = new Uint8Array(24);
         uuid.v4(null, this.b, 8);
