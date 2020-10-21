@@ -1,6 +1,6 @@
 {
   "name": "hashzeus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "generate globally unique event Ids",
   "main": "server.js",
   "dependencies": {
