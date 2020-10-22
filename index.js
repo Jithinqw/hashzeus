@@ -41,7 +41,7 @@ class hashZeus {
         }
         let hashwithoutName = d64.encode(this.b);
         if(serviceName) {
-            return this.appendServiceName(serviceName, hashwithoutName);
+            return hashZeus.appendServiceName(serviceName, hashwithoutName);
         }
         return hashwithoutName;
     }
