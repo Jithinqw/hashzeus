@@ -7,6 +7,7 @@ describe('Foundation tests', ()=> {
         let test = new hashZeus();
         let hash = test.generateHash();
         assert.isNotNull(hash);
+        assert.isNotEmpty(hash);
     });
 
     it('hashZeus should generate a string', ()=> {

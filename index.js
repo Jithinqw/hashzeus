@@ -1,6 +1,11 @@
 const d64 = require('d64'),
     uuid = require('uuid');
 
+/**
+ * @class hashZeus
+ * @description hashZeus class for creating unique eventId
+ * for each object created.
+ */
 class hashZeus {
     constructor() {
         this.b = new Uint8Array(24);
@@ -8,10 +13,12 @@ class hashZeus {
     }
 
     /**
+     * @static
      * @function appendServiceName
      * @description strips ... and adds service name
-     * @param {*} name 
-     * @param {*} eventId 
+     * @param {string} name service or microservice name
+     * @param {string} eventId hash generated
+     * @returns {string}
      */
     static appendServiceName(name, eventId) {
         let tempSer = eventId.substring(10);
@@ -21,11 +28,11 @@ class hashZeus {
     /**
      * @function generateHash
      * @description generates eventId based on uuid and d64
-     * @param {*} serviceName 
-     * @returns {*} string
+     * @param {string} serviceName 
+     * @returns {string} string
      */
     generateHash(serviceName) {
-        for(let i=7; i>=0; i--) {
+        for(let i=7; i >=0; i--) {
             if(this.b[i] !== 255) {
                 this.b[i]++;
                 break;
