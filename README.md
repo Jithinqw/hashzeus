@@ -35,3 +35,7 @@ This is created as an alternative for Javascript timestamps for identifying serv
     assert(id1 < id2)
     //true
 ```
+
+# API 
+
+ - `generateHash(serviceName?: string)` - Optional service name 
