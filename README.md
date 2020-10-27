@@ -6,7 +6,8 @@
 ![npm collaborators](https://img.shields.io/npm/collaborators/hashzeus)
 
 Generates globally unique eventId based on microservices on a network. 
-This is created as an alternative for Javascript timestamps for identifying service events.
+This is created as an alternative for timestamps since JavaScript has only 
+millisecond resolution.
 
 
 # Installation

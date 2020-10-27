@@ -1,6 +1,6 @@
 let assert = require('chai').assert,
     expect = require('chai').expect,
-    hashZeus = require('./index');
+    hashZeus = require('./src/index');
 
 
 describe('Foundation tests', ()=> {
